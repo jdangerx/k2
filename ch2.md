@@ -23,3 +23,4 @@
 * you can pass mutable arrays as immutable ones by adding const in the
   call?
   * no, i think you add it in the declaration of the function
+* what's the difference between char *s and char s[]?
