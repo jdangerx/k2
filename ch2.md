@@ -24,3 +24,5 @@
   call?
   * no, i think you add it in the declaration of the function
 * what's the difference between char *s and char s[]?
+* bit magic is annoying but also kind of fun
+* type coercion occurs in ternary operator - interesting
