@@ -19,3 +19,8 @@ unsigned setbits(unsigned x, int p, int n, unsigned y) {
   // TODO: doesn't get the rightmost n bits of y, just the n bits starting at position p+1 of y
   return ((x & ~mask) | (y & mask));
 }
+
+unsigned invert(unsigned x, int p, int n) {
+  unsigned char mask = (unsigned char) ~((unsigned char) ~0 >> n) >> p;
+  return ((x & ~mask) | (x ^ mask))
+}
