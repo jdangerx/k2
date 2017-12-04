@@ -26,3 +26,4 @@
 * what's the difference between char *s and char s[]?
 * bit magic is annoying but also kind of fun
 * type coercion occurs in ternary operator - interesting
+* seems like with ++, -- especially, it's better to be safe than sorry. things can often be evaluated in wacky ways and you should just explicitly set them first.
